@@ -1,2 +1,12 @@
 *.class
 *.log
+/.c9/
+/cms/
+/framework/
+/gridfieldextensions/
+/reports/
+/segment-field/
+/siteconfig/
+/userforms/
+/vendor/
+/wing-it/
