@@ -307,7 +307,7 @@ body {
 	/* Secondary navigation */
 	.main .secondary h3 {
 	    font-size: 20px;
-	    color: #AAA;
+	    //color: #AAA;
 	    margin: 0 0 8px 0;
 	    //font-family: "CamboRegular", Georgia, "Times New Roman", Times, serif;
 	    font-weight: normal;
@@ -344,13 +344,13 @@ body {
 		.main .secondary li a { /* side nav link styling */
 		    padding: 10px 0;
 		    display: block;
-		    text-transform: uppercase;
+		    //text-transform: uppercase;
 		    letter-spacing: 2px;
 		    font-size: 11px;
 		    color: #333;
 		    line-height: 17px;
 		    border-bottom: none;
-		    font-family: 'Lucida Sans', 'Lucida Grande', Arial, Helvetica, sans-serif;
+		    //font-family: 'Lucida Sans', 'Lucida Grande', Arial, Helvetica, sans-serif;
 		}
 		.main .secondary li .text {
 		    padding-left: 28px;
@@ -358,12 +358,12 @@ body {
 		}
 		.main .secondary li.current a.current {
 			color: #b80000;
-			background-color: #EDEDED;
+			//background-color: #EDEDED;
 		}
-		.main .secondary li.section,
+		/*.main .secondary li.section,
 		.main .secondary li.current {
 		    background-color: #F3F3F3;
-		}
+		}*/
 			.main .secondary li.section a,
 			.main .secondary li.current a {
 			    color: #000;
@@ -663,11 +663,11 @@ body h1 span.amp {
 			    font-weight: bold;
 			    border-bottom: 1px solid #bbb;
 			    color: #434343;
-			    background: #e7e7e7;
+			    //background: #e7e7e7;
 			}
 			.tablet-nav .header .primary ul li.current a,
 			.tablet-nav .header .primary ul li.section a {
-				background: #CCCCCC; /* makes background on current top level page slightly darker */
+				//background: #CCCCCC; /* makes background on current top level page slightly darker */
 			}
 			.tablet-nav .header .primary ul li a:hover {
 			    color: inherit;
