@@ -1,0 +1,18 @@
+[27-Aug-2017 10:50:47 UTC] PHP Warning:  Missing argument 2 for FieldList::addFieldToTab(), called in /home/ubuntu/workspace/mysite/DataObjects/ContentSection.php on line 23 and defined in /home/ubuntu/workspace/framework/forms/FieldList.php on line 117
+[27-Aug-2017 10:50:47 UTC] PHP Stack trace:
+[27-Aug-2017 10:50:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/framework/main.php:0
+[27-Aug-2017 10:50:47 UTC] PHP   2. Director::direct() /home/ubuntu/workspace/framework/main.php:191
+[27-Aug-2017 10:50:47 UTC] PHP   3. Director::handleRequest() /home/ubuntu/workspace/framework/control/Director.php:149
+[27-Aug-2017 10:50:47 UTC] PHP   4. AdminRootController->handleRequest() /home/ubuntu/workspace/framework/control/Director.php:385
+[27-Aug-2017 10:50:47 UTC] PHP   5. LeftAndMain->handleRequest() /home/ubuntu/workspace/framework/admin/code/AdminRootController.php:92
+[27-Aug-2017 10:50:47 UTC] PHP   6. Controller->handleRequest() /home/ubuntu/workspace/framework/admin/code/LeftAndMain.php:464
+[27-Aug-2017 10:50:47 UTC] PHP   7. RequestHandler->handleRequest() /home/ubuntu/workspace/framework/control/Controller.php:158
+[27-Aug-2017 10:50:47 UTC] PHP   8. RequestHandler->handleRequest() /home/ubuntu/workspace/framework/control/RequestHandler.php:222
+[27-Aug-2017 10:50:47 UTC] PHP   9. GridField->handleRequest() /home/ubuntu/workspace/framework/control/RequestHandler.php:222
+[27-Aug-2017 10:50:47 UTC] PHP  10. GridFieldDetailForm->handleItem() /home/ubuntu/workspace/framework/forms/gridfield/GridField.php:981
+[27-Aug-2017 10:50:47 UTC] PHP  11. RequestHandler->handleRequest() /home/ubuntu/workspace/framework/forms/gridfield/GridFieldDetailForm.php:102
+[27-Aug-2017 10:50:47 UTC] PHP  12. RequestHandler->handleAction() /home/ubuntu/workspace/framework/control/RequestHandler.php:200
+[27-Aug-2017 10:50:47 UTC] PHP  13. GridFieldDetailForm_ItemRequest->edit() /home/ubuntu/workspace/framework/control/RequestHandler.php:288
+[27-Aug-2017 10:50:47 UTC] PHP  14. GridFieldDetailForm_ItemRequest->ItemEditForm() /home/ubuntu/workspace/framework/forms/gridfield/GridFieldDetailForm.php:304
+[27-Aug-2017 10:50:47 UTC] PHP  15. ContentSection->getCMSFields() /home/ubuntu/workspace/framework/forms/gridfield/GridFieldDetailForm.php:398
+[27-Aug-2017 10:50:47 UTC] PHP  16. FieldList->addFieldToTab() /home/ubuntu/workspace/mysite/DataObjects/ContentSection.php:23

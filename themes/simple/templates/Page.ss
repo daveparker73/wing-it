@@ -1,11 +1,4 @@
 <!DOCTYPE html>
-<!--
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-Simple. by Sara (saratusar.com, @saratusar) for Innovatif - an awesome Slovenia-based digital agency (innovatif.com/en)
-Change it, enhance it and most importantly enjoy it!
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
--->
-
 <!--[if !IE]><!-->
 <html lang="$ContentLocale">
 <!--<![endif]-->
@@ -15,27 +8,41 @@ Change it, enhance it and most importantly enjoy it!
 <head>
 	<% base_tag %>
 	<title><% if $MetaTitle %>$MetaTitle<% else %>$Title<% end_if %> &raquo; $SiteConfig.Title</title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	$MetaTags(false)
 	<!--[if lt IE 9]>
 	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<% require themedCSS('reset') %>
 	<% require themedCSS('typography') %>
 	<% require themedCSS('form') %>
 	<% require themedCSS('layout') %>
 	<link rel="shortcut icon" href="$ThemeDir/images/favicon.ico" />
+	<style>
+		body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+		.w3-row-padding img {margin-bottom: 12px}
+		
+		/* Set the width of the sidebar to 120px */
+		.w3-sidebar {width: 120px;background: #222;}
+
+		/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+		#main {margin-left: 120px}
+
+		/* Remove margins from "page content" on small screens */
+		@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+</style>
 </head>
-<body class="$ClassName<% if not $Menu(2) %> no-sidebar<% end_if %>" <% if $i18nScriptDirection %>dir="$i18nScriptDirection"<% end_if %>>
-<% include Header %>
-<div class="main" role="main">
-	<div class="inner typography line">
+<body class="$ClassName<% if not $Menu(2) %> no-sidebar<% end_if %> w3-black" <% if $i18nScriptDirection %>dir="$i18nScriptDirection"<% end_if %>>
+	<% include Header %>
+	<div class="w3-padding-large" role="main">
 		$Layout
+		<% include Footer %>
 	</div>
-</div>
-<% include Footer %>
 
 <% require javascript('framework/thirdparty/jquery/jquery.js') %>
 <%-- Please move: Theme javascript (below) should be moved to mysite/code/page.php  --%>
