@@ -225,7 +225,9 @@ body {
 		    display: none; /* hides search-dropdown-icon when site is at full width - media queries set it to display:block when at mobile/tablet width */
 		}
 
-
+h3 {
+	margin-top: 50px;
+}
 
 /* NAVIGATION */
 
@@ -307,9 +309,7 @@ body {
 	/* Secondary navigation */
 	.main .secondary h3 {
 	    font-size: 20px;
-	    //color: #AAA;
 	    margin: 0 0 8px 0;
-	    //font-family: "CamboRegular", Georgia, "Times New Roman", Times, serif;
 	    font-weight: normal;
 	}
 	.main .secondary {
@@ -344,13 +344,11 @@ body {
 		.main .secondary li a { /* side nav link styling */
 		    padding: 10px 0;
 		    display: block;
-		    //text-transform: uppercase;
 		    letter-spacing: 2px;
 		    font-size: 11px;
 		    color: #333;
 		    line-height: 17px;
 		    border-bottom: none;
-		    //font-family: 'Lucida Sans', 'Lucida Grande', Arial, Helvetica, sans-serif;
 		}
 		.main .secondary li .text {
 		    padding-left: 28px;
@@ -358,12 +356,8 @@ body {
 		}
 		.main .secondary li.current a.current {
 			color: #b80000;
-			//background-color: #EDEDED;
 		}
-		/*.main .secondary li.section,
-		.main .secondary li.current {
-		    background-color: #F3F3F3;
-		}*/
+
 			.main .secondary li.section a,
 			.main .secondary li.current a {
 			    color: #000;

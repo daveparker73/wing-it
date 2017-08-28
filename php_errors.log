@@ -16,3 +16,75 @@
 [27-Aug-2017 10:50:47 UTC] PHP  14. GridFieldDetailForm_ItemRequest->ItemEditForm() /home/ubuntu/workspace/framework/forms/gridfield/GridFieldDetailForm.php:304
 [27-Aug-2017 10:50:47 UTC] PHP  15. ContentSection->getCMSFields() /home/ubuntu/workspace/framework/forms/gridfield/GridFieldDetailForm.php:398
 [27-Aug-2017 10:50:47 UTC] PHP  16. FieldList->addFieldToTab() /home/ubuntu/workspace/mysite/DataObjects/ContentSection.php:23
+[28-Aug-2017 09:44:59 UTC] PHP Warning:  None of the following templates could be found in theme "simple": ContentSection.ss in /home/ubuntu/workspace/framework/view/SSViewer.php on line 918
+[28-Aug-2017 09:44:59 UTC] PHP Stack trace:
+[28-Aug-2017 09:44:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/framework/main.php:0
+[28-Aug-2017 09:44:59 UTC] PHP   2. Director::direct() /home/ubuntu/workspace/framework/main.php:191
+[28-Aug-2017 09:44:59 UTC] PHP   3. Director::handleRequest() /home/ubuntu/workspace/framework/control/Director.php:149
+[28-Aug-2017 09:44:59 UTC] PHP   4. RootURLController->handleRequest() /home/ubuntu/workspace/framework/control/Director.php:385
+[28-Aug-2017 09:44:59 UTC] PHP   5. ModelAsController->handleRequest() /home/ubuntu/workspace/cms/code/controllers/RootURLController.php:130
+[28-Aug-2017 09:44:59 UTC] PHP   6. ContentController->handleRequest() /home/ubuntu/workspace/cms/code/controllers/ModelAsController.php:75
+[28-Aug-2017 09:44:59 UTC] PHP   7. Controller->handleRequest() /home/ubuntu/workspace/cms/code/controllers/ContentController.php:174
+[28-Aug-2017 09:44:59 UTC] PHP   8. RequestHandler->handleRequest() /home/ubuntu/workspace/framework/control/Controller.php:158
+[28-Aug-2017 09:44:59 UTC] PHP   9. Controller->handleAction() /home/ubuntu/workspace/framework/control/RequestHandler.php:200
+[28-Aug-2017 09:44:59 UTC] PHP  10. SSViewer->process() /home/ubuntu/workspace/framework/control/Controller.php:211
+[28-Aug-2017 09:44:59 UTC] PHP  11. SSViewer->process() /home/ubuntu/workspace/framework/view/SSViewer.php:1222
+[28-Aug-2017 09:44:59 UTC] PHP  12. SSViewer->includeGeneratedTemplate() /home/ubuntu/workspace/framework/view/SSViewer.php:1226
+[28-Aug-2017 09:44:59 UTC] PHP  13. include() /home/ubuntu/workspace/framework/view/SSViewer.php:1164
+[28-Aug-2017 09:44:59 UTC] PHP  14. SSViewer::execute_template() /tmp/silverstripe-cache-php5.5.9-1ubuntu4.21-home-ubuntu-workspace/ubuntu/.cache.themes.simple.templates.Layout.Page.ss:36
+[28-Aug-2017 09:44:59 UTC] PHP  15. SSViewer->__construct() /home/ubuntu/workspace/framework/view/SSViewer.php:1262
+[28-Aug-2017 09:44:59 UTC] PHP  16. user_error() /home/ubuntu/workspace/framework/view/SSViewer.php:918
+[28-Aug-2017 09:44:59 UTC] PHP Warning:  file_get_contents(): Filename cannot be empty in /home/ubuntu/workspace/framework/view/SSViewer.php on line 1202
+[28-Aug-2017 09:44:59 UTC] PHP Stack trace:
+[28-Aug-2017 09:44:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/framework/main.php:0
+[28-Aug-2017 09:44:59 UTC] PHP   2. Director::direct() /home/ubuntu/workspace/framework/main.php:191
+[28-Aug-2017 09:44:59 UTC] PHP   3. Director::handleRequest() /home/ubuntu/workspace/framework/control/Director.php:149
+[28-Aug-2017 09:44:59 UTC] PHP   4. RootURLController->handleRequest() /home/ubuntu/workspace/framework/control/Director.php:385
+[28-Aug-2017 09:44:59 UTC] PHP   5. ModelAsController->handleRequest() /home/ubuntu/workspace/cms/code/controllers/RootURLController.php:130
+[28-Aug-2017 09:44:59 UTC] PHP   6. ContentController->handleRequest() /home/ubuntu/workspace/cms/code/controllers/ModelAsController.php:75
+[28-Aug-2017 09:44:59 UTC] PHP   7. Controller->handleRequest() /home/ubuntu/workspace/cms/code/controllers/ContentController.php:174
+[28-Aug-2017 09:44:59 UTC] PHP   8. RequestHandler->handleRequest() /home/ubuntu/workspace/framework/control/Controller.php:158
+[28-Aug-2017 09:44:59 UTC] PHP   9. Controller->handleAction() /home/ubuntu/workspace/framework/control/RequestHandler.php:200
+[28-Aug-2017 09:44:59 UTC] PHP  10. SSViewer->process() /home/ubuntu/workspace/framework/control/Controller.php:211
+[28-Aug-2017 09:44:59 UTC] PHP  11. SSViewer->process() /home/ubuntu/workspace/framework/view/SSViewer.php:1222
+[28-Aug-2017 09:44:59 UTC] PHP  12. SSViewer->includeGeneratedTemplate() /home/ubuntu/workspace/framework/view/SSViewer.php:1226
+[28-Aug-2017 09:44:59 UTC] PHP  13. include() /home/ubuntu/workspace/framework/view/SSViewer.php:1164
+[28-Aug-2017 09:44:59 UTC] PHP  14. SSViewer::execute_template() /tmp/silverstripe-cache-php5.5.9-1ubuntu4.21-home-ubuntu-workspace/ubuntu/.cache.themes.simple.templates.Layout.Page.ss:36
+[28-Aug-2017 09:44:59 UTC] PHP  15. SSViewer->process() /home/ubuntu/workspace/framework/view/SSViewer.php:1265
+[28-Aug-2017 09:44:59 UTC] PHP  16. file_get_contents() /home/ubuntu/workspace/framework/view/SSViewer.php:1202
+[28-Aug-2017 09:44:59 UTC] PHP Warning:  None of the following templates could be found in theme "simple": ContentSection.ss in /home/ubuntu/workspace/framework/view/SSViewer.php on line 918
+[28-Aug-2017 09:44:59 UTC] PHP Stack trace:
+[28-Aug-2017 09:44:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/framework/main.php:0
+[28-Aug-2017 09:44:59 UTC] PHP   2. Director::direct() /home/ubuntu/workspace/framework/main.php:191
+[28-Aug-2017 09:44:59 UTC] PHP   3. Director::handleRequest() /home/ubuntu/workspace/framework/control/Director.php:149
+[28-Aug-2017 09:44:59 UTC] PHP   4. RootURLController->handleRequest() /home/ubuntu/workspace/framework/control/Director.php:385
+[28-Aug-2017 09:44:59 UTC] PHP   5. ModelAsController->handleRequest() /home/ubuntu/workspace/cms/code/controllers/RootURLController.php:130
+[28-Aug-2017 09:44:59 UTC] PHP   6. ContentController->handleRequest() /home/ubuntu/workspace/cms/code/controllers/ModelAsController.php:75
+[28-Aug-2017 09:44:59 UTC] PHP   7. Controller->handleRequest() /home/ubuntu/workspace/cms/code/controllers/ContentController.php:174
+[28-Aug-2017 09:44:59 UTC] PHP   8. RequestHandler->handleRequest() /home/ubuntu/workspace/framework/control/Controller.php:158
+[28-Aug-2017 09:44:59 UTC] PHP   9. Controller->handleAction() /home/ubuntu/workspace/framework/control/RequestHandler.php:200
+[28-Aug-2017 09:44:59 UTC] PHP  10. SSViewer->process() /home/ubuntu/workspace/framework/control/Controller.php:211
+[28-Aug-2017 09:44:59 UTC] PHP  11. SSViewer->process() /home/ubuntu/workspace/framework/view/SSViewer.php:1222
+[28-Aug-2017 09:44:59 UTC] PHP  12. SSViewer->includeGeneratedTemplate() /home/ubuntu/workspace/framework/view/SSViewer.php:1226
+[28-Aug-2017 09:44:59 UTC] PHP  13. include() /home/ubuntu/workspace/framework/view/SSViewer.php:1164
+[28-Aug-2017 09:44:59 UTC] PHP  14. SSViewer::execute_template() /tmp/silverstripe-cache-php5.5.9-1ubuntu4.21-home-ubuntu-workspace/ubuntu/.cache.themes.simple.templates.Layout.Page.ss:36
+[28-Aug-2017 09:44:59 UTC] PHP  15. SSViewer->__construct() /home/ubuntu/workspace/framework/view/SSViewer.php:1262
+[28-Aug-2017 09:44:59 UTC] PHP  16. user_error() /home/ubuntu/workspace/framework/view/SSViewer.php:918
+[28-Aug-2017 09:44:59 UTC] PHP Warning:  None of the following templates could be found in theme "simple": ContentSection.ss in /home/ubuntu/workspace/framework/view/SSViewer.php on line 918
+[28-Aug-2017 09:44:59 UTC] PHP Stack trace:
+[28-Aug-2017 09:44:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/framework/main.php:0
+[28-Aug-2017 09:44:59 UTC] PHP   2. Director::direct() /home/ubuntu/workspace/framework/main.php:191
+[28-Aug-2017 09:44:59 UTC] PHP   3. Director::handleRequest() /home/ubuntu/workspace/framework/control/Director.php:149
+[28-Aug-2017 09:44:59 UTC] PHP   4. RootURLController->handleRequest() /home/ubuntu/workspace/framework/control/Director.php:385
+[28-Aug-2017 09:44:59 UTC] PHP   5. ModelAsController->handleRequest() /home/ubuntu/workspace/cms/code/controllers/RootURLController.php:130
+[28-Aug-2017 09:44:59 UTC] PHP   6. ContentController->handleRequest() /home/ubuntu/workspace/cms/code/controllers/ModelAsController.php:75
+[28-Aug-2017 09:44:59 UTC] PHP   7. Controller->handleRequest() /home/ubuntu/workspace/cms/code/controllers/ContentController.php:174
+[28-Aug-2017 09:44:59 UTC] PHP   8. RequestHandler->handleRequest() /home/ubuntu/workspace/framework/control/Controller.php:158
+[28-Aug-2017 09:44:59 UTC] PHP   9. Controller->handleAction() /home/ubuntu/workspace/framework/control/RequestHandler.php:200
+[28-Aug-2017 09:44:59 UTC] PHP  10. SSViewer->process() /home/ubuntu/workspace/framework/control/Controller.php:211
+[28-Aug-2017 09:44:59 UTC] PHP  11. SSViewer->process() /home/ubuntu/workspace/framework/view/SSViewer.php:1222
+[28-Aug-2017 09:44:59 UTC] PHP  12. SSViewer->includeGeneratedTemplate() /home/ubuntu/workspace/framework/view/SSViewer.php:1226
+[28-Aug-2017 09:44:59 UTC] PHP  13. include() /home/ubuntu/workspace/framework/view/SSViewer.php:1164
+[28-Aug-2017 09:44:59 UTC] PHP  14. SSViewer::execute_template() /tmp/silverstripe-cache-php5.5.9-1ubuntu4.21-home-ubuntu-workspace/ubuntu/.cache.themes.simple.templates.Layout.Page.ss:36
+[28-Aug-2017 09:44:59 UTC] PHP  15. SSViewer->__construct() /home/ubuntu/workspace/framework/view/SSViewer.php:1262
+[28-Aug-2017 09:44:59 UTC] PHP  16. user_error() /home/ubuntu/workspace/framework/view/SSViewer.php:918

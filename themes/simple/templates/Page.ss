@@ -18,10 +18,10 @@
 	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<% require themedCSS('reset') %>
-	<% require themedCSS('typography') %>
+
 	<% require themedCSS('form') %>
 	<% require themedCSS('layout') %>
+	
 	<link rel="shortcut icon" href="$ThemeDir/images/favicon.ico" />
 	<style>
 		body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
@@ -41,7 +41,6 @@
 	<% include Header %>
 	<div class="w3-padding-large" role="main">
 		$Layout
-		<% include Footer %>
 	</div>
 
 <% require javascript('framework/thirdparty/jquery/jquery.js') %>
