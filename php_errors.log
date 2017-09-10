@@ -88,3 +88,9 @@
 [28-Aug-2017 09:44:59 UTC] PHP  14. SSViewer::execute_template() /tmp/silverstripe-cache-php5.5.9-1ubuntu4.21-home-ubuntu-workspace/ubuntu/.cache.themes.simple.templates.Layout.Page.ss:36
 [28-Aug-2017 09:44:59 UTC] PHP  15. SSViewer->__construct() /home/ubuntu/workspace/framework/view/SSViewer.php:1262
 [28-Aug-2017 09:44:59 UTC] PHP  16. user_error() /home/ubuntu/workspace/framework/view/SSViewer.php:918
+[10-Sep-2017 09:21:46 UTC] PHP Notice:  session_start(): ps_files_cleanup_dir: opendir(/var/lib/php5) failed: Permission denied (13) in /home/ubuntu/workspace/framework/control/Session.php on line 390
+[10-Sep-2017 09:21:46 UTC] PHP Stack trace:
+[10-Sep-2017 09:21:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/framework/main.php:0
+[10-Sep-2017 09:21:46 UTC] PHP   2. Director::direct() /home/ubuntu/workspace/framework/main.php:191
+[10-Sep-2017 09:21:46 UTC] PHP   3. Session->inst_start() /home/ubuntu/workspace/framework/control/Director.php:139
+[10-Sep-2017 09:21:46 UTC] PHP   4. session_start() /home/ubuntu/workspace/framework/control/Session.php:390

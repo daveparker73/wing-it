@@ -1,7 +1,7 @@
 <!-- Icon Bar (Sidebar - hidden on small screens) -->
 <nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
   <!-- Avatar image in top left corner -->
-  <img src="$ThemeDir/images/Wing-it-small-logo.gif" style="width:75%">
+  <img src="$ThemeDir/images/Wing-it-new-small-logo.gif" style="width:100%">
   <a href="/#" class="w3-bar-item w3-button w3-padding-large w3-black">
     <i class="fa fa-home w3-xxlarge"></i>
     <p>HOME</p>
