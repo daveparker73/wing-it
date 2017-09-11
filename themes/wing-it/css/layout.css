@@ -147,6 +147,10 @@ body {
 
 
 /* HEADER */
+.w3-sidebar {
+	background-color: #333;
+}
+
 .header {
     background: #161616;
 }
