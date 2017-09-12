@@ -40,9 +40,6 @@
 <body class="$ClassName<% if not $Menu(2) %> no-sidebar<% end_if %> w3-black" <% if $i18nScriptDirection %>dir="$i18nScriptDirection"<% end_if %>>
 	<% include Header %>
 	<div class="w3-padding-large" role="main">
-		<header class="w3-container w3-padding-32 w3-center w3-black" id="home">
-			<img src="/$ThemeDir/images/wing-it-new-logo.gif" class="w3-image" width="80%">
-		 </header>
 		$Layout
 	</div>
 

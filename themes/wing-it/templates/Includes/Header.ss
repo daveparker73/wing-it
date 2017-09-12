@@ -1,7 +1,10 @@
 <!-- Icon Bar (Sidebar - hidden on small screens) -->
 <nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
   <!-- Avatar image in top left corner -->
-  <img src="$ThemeDir/images/Wing-it-new-small-logo.gif" style="width:100%; margin-bottom:0px;">
+    
+  <a href="/#home">
+    <img src="$ThemeDir/images/Wing-it-new-small-logo.gif" style="width:100%; margin-bottom:0px;">
+  </a>  
   <a href="/#Nunsense" class="w3-bar-item w3-button w3-padding-large w3-black">
     <i class="fa fa-calendar w3-xxlarge"></i>
     <p>EVENTS</p>
