@@ -105,7 +105,7 @@ jQuery.noConflict();
 		        event.preventDefault();
 		        $('html, body').animate({
 		          scrollTop: target.offset().top
-		        }, 1000, function() {
+		        }, 2000, function() {
 		            return false;
 		        });
 		      }
