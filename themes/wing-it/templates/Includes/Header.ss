@@ -13,13 +13,13 @@
     <i class="fa fa-child w3-xxlarge"></i>
     <p>MISSION</p>
   </a>
-  <a href="/#Origin" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
-    <i class="fa fa-child w3-xxlarge"></i>
-    <p>ORIGIN</p>
-  </a>
   <a href="/#Biographies" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
     <i class="fa fa-user-circle w3-xxlarge"></i>
     <p>BIOGRAPHIES</p>
+  </a>
+  <a href="/#Origin" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-child w3-xxlarge"></i>
+    <p>ORIGIN</p>
   </a>
   <a href="/contact-us/" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
     <i class="fa fa-envelope w3-xxlarge"></i>
