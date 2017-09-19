@@ -3,7 +3,7 @@
   <!-- Avatar image in top left corner -->
     
   <a href="/#home">
-    <img src="$ThemeDir/images/Wing-it-new-small-logo.gif" style="width:100%; margin-bottom:0px;">
+    <img src="$ThemeDir/images/Wingit-small-logo.gif" style="width:100%; margin-bottom:0px;">
   </a>  
   <a href="/#Nunsense" class="w3-bar-item w3-button w3-padding-large w3-black">
     <i class="fa fa-calendar w3-xxlarge"></i>
