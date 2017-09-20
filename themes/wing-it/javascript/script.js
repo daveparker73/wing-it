@@ -84,6 +84,11 @@ jQuery.noConflict();
 			});
 		}
 		
+		$('nav a.js-nav').click(function(){
+			$(this).parent().find('a.js-nav').removeClass('w3-black').addClass('w3-hover-black')
+			$(this).removeClass('w3-hover-black').addClass('w3-black');
+		});	
+		
 		// Select all links with hashes
 		$('a[href*="#"]')
 		  // Remove links that don't actually link to anything
@@ -111,5 +116,6 @@ jQuery.noConflict();
 		      }
 		    }
 		  });
+		
 	});
 }(jQuery));

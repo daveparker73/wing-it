@@ -5,23 +5,27 @@
   <a href="/#home">
     <img src="$ThemeDir/images/Wingit-small-logo.gif" style="width:100%; margin-bottom:0px;">
   </a>  
-  <a href="/#Nunsense" class="w3-bar-item w3-button w3-padding-large w3-black">
+  <a href="/#Nunsense" class="js-nav w3-bar-item w3-button w3-padding-small w3-hover-black">
     <i class="fa fa-calendar w3-xxlarge"></i>
     <p>EVENTS</p>
   </a>
-  <a href="/#Mission" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+  <a href="/#Mission" class="js-nav w3-bar-item w3-button w3-padding-small w3-hover-black">
     <i class="fa fa-child w3-xxlarge"></i>
     <p>MISSION</p>
   </a>
-  <a href="/#Biographies" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+  <a href="/#Biographies" class="js-nav w3-bar-item w3-button w3-padding-small w3-hover-black">
     <i class="fa fa-user-circle w3-xxlarge"></i>
     <p>BIOGRAPHIES</p>
   </a>
-  <a href="/#Origin" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+  <a href="/#Wingmen" class="js-nav w3-bar-item w3-button w3-padding-small w3-hover-black">
+    <i class="fa fa-users w3-xxlarge"></i>
+    <p>WINGMEN</p>
+  </a>
+  <a href="/#Origin" class="js-nav w3-bar-item w3-button w3-padding-small w3-hover-black">
     <i class="fa fa-child w3-xxlarge"></i>
     <p>ORIGIN</p>
   </a>
-  <a href="/contact-us/" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+  <a href="/contact-us/" class="js-nav w3-bar-item w3-button w3-padding-small w3-hover-black">
     <i class="fa fa-envelope w3-xxlarge"></i>
     <p>CONTACT</p>
   </a>
