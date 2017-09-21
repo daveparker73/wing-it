@@ -147,6 +147,10 @@ img.img-main {
     padding: 8px 8px 0 8px!important;
 }
 
+.w3-bar .w3-bar-item {
+    padding: 8px 8px;
+}
+
 /* HEADER */
 .w3-sidebar {
 	background-color: #333;

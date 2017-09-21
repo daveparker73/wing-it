@@ -33,11 +33,12 @@
 <!-- Navbar on small screens (Hidden on medium and large screens) -->
 <div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
   <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
-    <a href="/#home" class="w3-bar-item w3-button" style="width:16.66% !important">HOME</a>
-    <a href="/#Nunsense" class="w3-bar-item w3-button" style="width:16.66% !important">EVENTS</a>
-    <a href="/#Mission" class="w3-bar-item w3-button" style="width:16.66% !important">MISSION</a>
-    <a href="/#Origin" class="w3-bar-item w3-button" style="width:16.66% !important">ORIGIN</a>
-    <a href="/#Biographies" class="w3-bar-item w3-button" style="width:16.66% !important">BIOS</a>
-    <a href="/contact-us/" class="w3-bar-item w3-button" style="width:16.66% !important">CONTACT</a>
+    <a href="/#home" class="w3-bar-item w3-button" style="width:14.28% !important">HOME</a>
+    <a href="/#Nunsense" class="w3-bar-item w3-button" style="width:14.28% !important">EVENTS</a>
+    <a href="/#Mission" class="w3-bar-item w3-button" style="width:14.28% !important">MISSION</a>
+    <a href="/#Wingmen" class="w3-bar-item w3-button" style="width:14.28% !important">WINGMEN</a>
+    <a href="/#Origin" class="w3-bar-item w3-button" style="width:14.28% !important">ORIGIN</a>
+    <a href="/#Biographies" class="w3-bar-item w3-button" style="width:14.28% !important">BIOS</a>
+    <a href="/contact-us/#Form" class="w3-bar-item w3-button" style="width:14.28% !important">CONTACT</a>
   </div>
 </div>
