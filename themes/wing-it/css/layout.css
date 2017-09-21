@@ -143,6 +143,10 @@ img.img-main {
 	max-width:700px;
 }
 
+.w3-padding-small {
+    padding: 8px 8px 0 8px!important;
+}
+
 /* HEADER */
 .w3-sidebar {
 	background-color: #333;

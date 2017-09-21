@@ -2,8 +2,10 @@
 	<header class="w3-container w3-padding-32 w3-center w3-black" id="home">
 		<img src="/$ThemeDir/images/Wingit-logo.gif" class="w3-image img-main">
 	</header>
-
-	$Form
+	
+	<div id="Form">
+		$Form
+	</div>	
 	$CommentsForm
 	
 	<% loop $ContentSections %>

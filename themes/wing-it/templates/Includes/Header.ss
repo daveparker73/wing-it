@@ -25,7 +25,7 @@
     <i class="fa fa-child w3-xxlarge"></i>
     <p>ORIGIN</p>
   </a>
-  <a href="/contact-us/" class="js-nav w3-bar-item w3-button w3-padding-small w3-hover-black">
+  <a href="/contact-us/#Form" class="js-nav w3-bar-item w3-button w3-padding-small w3-hover-black">
     <i class="fa fa-envelope w3-xxlarge"></i>
     <p>CONTACT</p>
   </a>
