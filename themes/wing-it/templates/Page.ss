@@ -7,9 +7,12 @@
 <!--[if IE 8 ]><html lang="$ContentLocale" class="ie ie8"><![endif]-->
 <head>
 	<% base_tag %>
-	<title><% if $MetaTitle %>$MetaTitle<% else %>$Title<% end_if %> &raquo; $SiteConfig.Title</title>
+	<title>$SiteConfig.Title &raquo; Nunsense - Wellington - January and February 2018</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="title" content="Nunsense - Wellington - January and February 2018">
+	<meta name="description" content="Nunsense is a hilarious talent show staged by five survivors at the Little Sisters of Hoboken nunnery, the rest of the sisterhood having succumbed to botulism after eating vichyssoise prepared by Sister Julia, Child of God. Gryphon Theatre, Wellington, 30th January 2018 to 10th February 2018.">
+	<meta name="keywords" content="Nunsense is a hilarious talent show staged by five survivors at the Little Sisters of Hoboken nunnery, the rest of the sisterhood having succumbed to botulism after eating vichyssoise prepared by Sister Julia, Child of God. Gryphon Theatre, Wellington, 30th January 2018 to 10th February 2018.">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	$MetaTags(false)
 	<!--[if lt IE 9]>
