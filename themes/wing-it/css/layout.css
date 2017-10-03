@@ -137,6 +137,9 @@ body {
 		float: left;
 		margin: 10px 25px 10px 0px;
 	}
+	.img-shows {
+		margin: 10px;
+	}
 
 img.img-main {
 	width:100%; 

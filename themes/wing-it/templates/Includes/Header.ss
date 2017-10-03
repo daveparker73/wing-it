@@ -22,9 +22,9 @@
     <i class="fa fa-users w3-xxlarge"></i>
     <p>WINGMEN</p>
   </a>
-  <a href="/#Shows" class="js-nav w3-bar-item w3-button w3-padding-small w3-hover-black">
+  <a href="/#Past Productions" class="js-nav w3-bar-item w3-button w3-padding-small w3-hover-black">
     <i class="fa fa-camera w3-xxlarge"></i>
-    <p>PAST SHOWS</p>
+    <p>PAST PRODUCTIONS</p>
   </a>
   <a href="/contact-us/#Form" class="js-nav w3-bar-item w3-button w3-padding-small w3-hover-black">
     <i class="fa fa-envelope w3-xxlarge"></i>
@@ -40,7 +40,7 @@
     <a href="/#Mission" class="w3-bar-item w3-button" style="width:12.5% !important">MISSION</a>
     <a href="/#Wingmen" class="w3-bar-item w3-button" style="width:12.5% !important">WINGMEN</a>
     <a href="/#Biographies" class="w3-bar-item w3-button" style="width:12.5% !important">BIOS</a>
-    <a href="/#Shows" class="w3-bar-item w3-button" style="width:12.5% !important">PAST SHOWS</a>
+    <a href="/#Shows" class="w3-bar-item w3-button" style="width:12.5% !important">PAST PRODUCTIONS</a>
     <a href="/contact-us/#Form" class="w3-bar-item w3-button" style="width:12.5% !important">CONTACT</a>
   </div>
 </div>
