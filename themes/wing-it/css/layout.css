@@ -155,12 +155,13 @@ img.img-main {
 }
 
 .w3-xxlarge {
-    font-size: 26px!important;
+    font-size: 27px!important;
 }
 
 /* HEADER */
 .w3-sidebar {
 	background-color: #333;
+	overflow: hidden;
 }
 
 .header {
