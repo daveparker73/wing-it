@@ -4,6 +4,7 @@ class ContentSection extends DataObject {
 
 	private static $db = array(
 		'Title' => 'Varchar(255)',
+		'AnchorLink' => 'Varchar(255)',
 		'Content' => 'HTMLText',
 		'Sort' => 'Int'
 	);
@@ -20,6 +21,7 @@ class ContentSection extends DataObject {
 
 	public function getCMSFields() {
 		$fields = parent::getCMSFields();
+		$fields->addFieldToTab('Root.Main', TextField::create('AnchorLink'));
     $fields->addFieldToTab('Root.Main', HtmlEditorField::create('Content'));
 		return $fields;
 	}

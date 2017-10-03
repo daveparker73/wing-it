@@ -22,7 +22,7 @@
     <i class="fa fa-users w3-xxlarge"></i>
     <p>WINGMEN</p>
   </a>
-  <a href="/#Past Productions" class="js-nav w3-bar-item w3-button w3-padding-small w3-hover-black">
+  <a href="/#Shows" class="js-nav w3-bar-item w3-button w3-padding-small w3-hover-black">
     <i class="fa fa-camera w3-xxlarge"></i>
     <p>PAST PRODUCTIONS</p>
   </a>
