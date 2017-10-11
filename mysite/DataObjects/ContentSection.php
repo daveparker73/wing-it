@@ -23,6 +23,7 @@ class ContentSection extends DataObject {
 		$fields = parent::getCMSFields();
 		$fields->addFieldToTab('Root.Main', TextField::create('AnchorLink'));
     $fields->addFieldToTab('Root.Main', HtmlEditorField::create('Content'));
+    
 		return $fields;
 	}
 }

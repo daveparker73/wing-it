@@ -6,6 +6,15 @@
 <!--[if IE 7 ]><html lang="$ContentLocale" class="ie ie7"><![endif]-->
 <!--[if IE 8 ]><html lang="$ContentLocale" class="ie ie8"><![endif]-->
 <head>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-107986431-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+	
+	  gtag('config', 'UA-107986431-1');
+	</script>
 	<% base_tag %>
 	<title>$SiteConfig.Title &raquo; Nunsense - Wellington - January and February 2018</title>
 	<meta charset="UTF-8">
