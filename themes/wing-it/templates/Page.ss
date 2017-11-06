@@ -20,8 +20,8 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="title" content="Nunsense - Wellington - January and February 2018">
-	<meta name="description" content="Nunsense is a hilarious talent show staged by five survivors at the Little Sisters of Hoboken nunnery, the rest of the sisterhood having succumbed to botulism after eating vichyssoise prepared by Sister Julia, Child of God. Gryphon Theatre, Wellington, 30th January 2018 to 10th February 2018.">
-	<meta name="keywords" content="Nunsense is a hilarious talent show staged by five survivors at the Little Sisters of Hoboken nunnery, the rest of the sisterhood having succumbed to botulism after eating vichyssoise prepared by Sister Julia, Child of God. Gryphon Theatre, Wellington, 30th January 2018 to 10th February 2018.">
+	<meta name="description" content="">
+	<meta name="keywords" content="">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	$MetaTags(false)
 	<!--[if lt IE 9]>
