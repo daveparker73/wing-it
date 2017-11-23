@@ -6,6 +6,7 @@ class ContentSection extends DataObject {
 		'Title' => 'Varchar(255)',
 		'AnchorLink' => 'Varchar(255)',
 		'Booking' => 'Boolean',
+		'GoogleMap' => 'Boolean',
 		'Content' => 'HTMLText',
 		'Sort' => 'Int'
 	);
@@ -24,6 +25,7 @@ class ContentSection extends DataObject {
 		$fields = parent::getCMSFields();
 		$fields->addFieldToTab('Root.Main', TextField::create('AnchorLink'));
 		$fields->addFieldToTab("Root.Main", new CheckboxField ("Booking"));
+		$fields->addFieldToTab("Root.Main", new CheckboxField ("GoogleMap"));
     $fields->addFieldToTab('Root.Main', HtmlEditorField::create('Content'));
     
 		return $fields;
