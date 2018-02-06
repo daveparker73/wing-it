@@ -3,10 +3,12 @@
   <hr style="width:200px" class="w3-opacity">
   $Content
   <br />
+  
   <% if $GoogleMap %>
     <iframe width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJAb243NmvOG0R_4-JFvN1lk4&key=AIzaSyBr0PjSPpNqpOZ1D2dvBWjF5kodFM0ABhI" allowfullscreen></iframe>
   <% end_if %>
   <br />
+  
   <% if $Booking %>
     <div id="iticket-widget"></div>
     <script type="text/javascript">
@@ -24,4 +26,8 @@
       }(document, 'script'));
     </script>
   <% end_if %>
+  
+  <% loop $ImageGalleries %>
+    <% include ImageGallery %>
+  <% end_loop %>
 </div>

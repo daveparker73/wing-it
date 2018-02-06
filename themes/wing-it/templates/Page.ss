@@ -16,10 +16,10 @@
 	  gtag('config', 'UA-107986431-1');
 	</script>
 	<% base_tag %>
-	<title>$SiteConfig.Title &raquo; Nunsense - Wellington - January and February 2018</title>
+	<title>$SiteConfig.Title</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="title" content="Nunsense - Wellington - January and February 2018">
+	<meta name="title" content="">
 	<meta name="description" content="">
 	<meta name="keywords" content="">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
