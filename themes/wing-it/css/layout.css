@@ -268,9 +268,9 @@ h3 {
 	  position: fixed;
 	  z-index: 1;
 	  padding-top: 100px;
-	  left: 0;
+	  left: 120px;
 	  top: 0;
-	  width: 100%;
+	  width: 90%;
 	  height: 100%;
 	  overflow: auto;
 	  background-color: black;
