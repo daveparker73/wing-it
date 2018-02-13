@@ -27,12 +27,15 @@
 	<!--[if lt IE 9]>
 	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
+	
 	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
 	<script src="https://use.fontawesome.com/cad50aa64c.js"></script>
 
 	<% require themedCSS('form') %>
 	<% require themedCSS('layout') %>
+	<% require themedCSS('slick') %>
+	<% require themedCSS('slick-theme') %>
 	
 	<link rel="shortcut icon" href="$ThemeDir/images/favicon.ico" />
 	<style>
@@ -54,13 +57,15 @@
 </style>
 </head>
 <body class="$ClassName<% if not $Menu(2) %> no-sidebar<% end_if %> w3-black" <% if $i18nScriptDirection %>dir="$i18nScriptDirection"<% end_if %>>
+
 	<% include Header %>
 	<div class="w3-padding-large" role="main">
 		$Layout
 	</div>
-
-<% require javascript('framework/thirdparty/jquery/jquery.js') %>
-<script type="text/javascript" src="/{$ThemeDir}/javascript/script.js"></script>
-
+	
+	<% require javascript('framework/thirdparty/jquery/jquery.js') %>
+	<script type="text/javascript" src="/{$ThemeDir}/javascript/script.js"></script>
+	<script type="text/javascript" src="/{$ThemeDir}/javascript/slick.min.js"></script>
+	
 </body>
 </html>

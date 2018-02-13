@@ -4,7 +4,8 @@ class ImageGallery extends DataObject {
  
   public static $db = array(
     'Title' => 'Text',
-    'SortOrder' => 'Int'
+    'SortOrder' => 'Int',
+    'ShowContent' => 'HTMLText'
   );
   
   private static $has_many = array(
@@ -42,6 +43,8 @@ class ImageGallery extends DataObject {
         $gridFieldConfig
       )
 		));
+		
+		$fields->addFieldToTab('Root.Main', HtmlEditorField::create('ShowContent'));
 		
 		return $fields;
 	}

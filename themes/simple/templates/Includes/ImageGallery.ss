@@ -1,61 +1,38 @@
+<script>
+  showSlides(1,'mySlides-$Pos','demo-$Pos','caption-$Pos');
+</script>
+
 <div class="row">
-  <div class="column">
-    <img src="img_nature.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
-  </div>
-  <div class="column">
-    <img src="img_fjords.jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
-  </div>
-  <div class="column">
-    <img src="img_mountains.jpg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
-  </div>
-  <div class="column">
-    <img src="img_lights.jpg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
-  </div>
+  <% loop $ImageContents %>
+    <div class="column">
+      <img src="$GalleryImage.URL" style="width:100%" onclick="openModal('myModal-$Parent.Pos');currentSlide($Pos,'mySlides-$Parent.Pos','demo-$Pos','caption-$Pos')" class="hover-shadow cursor">
+    </div>
+  <% end_loop %>  
 </div>
 
-<div id="myModal" class="modal">
-  <span class="close cursor" onclick="closeModal()">&times;</span>
+<div id="myModal-$Pos" class="modal">
+  <span class="close cursor" onclick="closeModal('myModal-$Parent.Pos')">&times;</span>
   <div class="modal-content">
-
-    <div class="mySlides">
-      <div class="numbertext">1 / 4</div>
-      <img src="img_nature_wide.jpg" style="width:100%">
-    </div>
-
-    <div class="mySlides">
-      <div class="numbertext">2 / 4</div>
-      <img src="img_fjords_wide.jpg" style="width:100%">
-    </div>
-
-    <div class="mySlides">
-      <div class="numbertext">3 / 4</div>
-      <img src="img_mountains_wide.jpg" style="width:100%">
-    </div>
     
-    <div class="mySlides">
-      <div class="numbertext">4 / 4</div>
-      <img src="img_lights_wide.jpg" style="width:100%">
-    </div>
+    <% loop $ImageContents %>
+      <div class="mySlides-$Parent.Pos">
+        <div class="numbertext">$Pos / $TotalItems</div>
+        <img src="$GalleryImage.URL" style="width:100%">
+      </div>
+    <% end_loop %>
     
-    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    <a class="prev" onclick="plusSlides(-1,'mySlides-$Parent.Pos','demo-$Pos','caption-$Pos')">&#10094;</a>
+    <a class="next" onclick="plusSlides(1,'mySlides-$Parent.Pos','demo-$Pos','caption-$Pos')">&#10095;</a>
 
     <div class="caption-container">
-      <p id="caption"></p>
+      <p id="caption-$Pos"></p>
     </div>
-
-
-    <div class="column">
-      <img class="demo cursor" src="img_nature_wide.jpg" style="width:100%" onclick="currentSlide(1)" alt="Nature and sunrise">
-    </div>
-    <div class="column">
-      <img class="demo cursor" src="img_fjords_wide.jpg" style="width:100%" onclick="currentSlide(2)" alt="Trolltunga, Norway">
-    </div>
-    <div class="column">
-      <img class="demo cursor" src="img_mountains_wide.jpg" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
-    </div>
-    <div class="column">
-      <img class="demo cursor" src="img_lights_wide.jpg" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
-    </div>
+    
+    <% loop $ImageContents %>
+      <div class="column">
+        <img class="demo-$Pos cursor" src="$GalleryImage.URL" style="width:100%" onclick="currentSlide($Pos,'mySlides-$Parent.Pos','demo-$Pos','caption-$Pos')" alt="$Title">
+      </div>
+    <% end_loop %>
+    
   </div>
 </div>

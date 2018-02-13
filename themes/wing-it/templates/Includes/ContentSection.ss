@@ -1,14 +1,13 @@
-<div id="$AnchorLink" class="w3-content w3-justify w3-text-grey w3-padding-64">
+<div id="$AnchorLink" class="w3-content w3-justify w3-text-grey">
   <h2 class="w3-text-light-grey">$Title</h2>
   <hr style="width:200px" class="w3-opacity">
   $Content
-  <br />
   
   <% if $GoogleMap %>
     <iframe width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJAb243NmvOG0R_4-JFvN1lk4&key=AIzaSyBr0PjSPpNqpOZ1D2dvBWjF5kodFM0ABhI" allowfullscreen></iframe>
+    <br />  
   <% end_if %>
-  <br />
-  
+ 
   <% if $Booking %>
     <div id="iticket-widget"></div>
     <script type="text/javascript">
@@ -31,45 +30,6 @@
     <% loop $ImageGalleries %>
       <% include ImageGallery %>
     <% end_loop %>
-    
-    <script>
-      function openModal(divID) {
-        document.getElementById(divID).style.display = "block";
-      }
-      
-      function closeModal(divID) {
-        document.getElementById(divID).style.display = "none";
-      }
-      
-      var slideIndex = 1;
-      
-      function plusSlides(n,slidesClass,demoClass,captionDiv) {
-        showSlides(slideIndex += n,slidesClass,demoClass,captionDiv);
-      }
-      
-      function currentSlide(n,slidesClass,demoClass,captionDiv) {
-        showSlides(slideIndex = n,slidesClass,demoClass,captionDiv);
-      }
-      
-      function showSlides(n,slidesClass,demoClass,captionDiv) {
-        var i;
-        var slides = document.getElementsByClassName(slidesClass);
-        var dots = document.getElementsByClassName(demoClass);
-        var captionText = document.getElementById(captionDiv);
-        if (n > slides.length) {slideIndex = 1}
-        if (n < 1) {slideIndex = slides.length}
-        for (i = 0; i < slides.length; i++) {
-            slides[i].style.display = "none";
-        }
-        for (i = 0; i < dots.length; i++) {
-            dots[i].className = dots[i].className.replace(" active", "");
-        }
-        slides[slideIndex-1].style.display = "block";
-        dots[slideIndex-1].className += " active";
-        captionText.innerHTML = dots[slideIndex-1].alt;
-      }
-    </script>
-
   <% end_if %>
   
 </div>
