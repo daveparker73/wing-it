@@ -6,13 +6,13 @@
     <i class="fa fa-child w3-xxlarge"></i>
     <p>ORIGIN</p>
   </a>
-  <a href="/#Nunsense" class="js-nav w3-bar-item w3-button w3-padding-small w3-hover-black">
-    <i class="fa fa-calendar w3-xxlarge"></i>
-    <p>EVENTS</p>
-  </a>
   <a href="/#Mission" class="js-nav w3-bar-item w3-button w3-padding-small w3-hover-black">
     <i class="fa fa-child w3-xxlarge"></i>
     <p>MISSION</p>
+  </a>
+  <a href="/#Shows" class="js-nav w3-bar-item w3-button w3-padding-small w3-hover-black">
+    <i class="fa fa-camera w3-xxlarge"></i>
+    <p>PAST PRODUCTIONS</p>
   </a>
   <a href="/#Biographies" class="js-nav w3-bar-item w3-button w3-padding-small w3-hover-black">
     <i class="fa fa-user-circle w3-xxlarge"></i>
@@ -22,10 +22,10 @@
     <i class="fa fa-users w3-xxlarge"></i>
     <p>WINGMEN</p>
   </a>
-  <a href="/#Shows" class="js-nav w3-bar-item w3-button w3-padding-small w3-hover-black">
-    <i class="fa fa-camera w3-xxlarge"></i>
-    <p>PRODUCTIONS</p>
-  </a>
+  <!--<a href="/#Nunsense" class="js-nav w3-bar-item w3-button w3-padding-small w3-hover-black">
+    <i class="fa fa-calendar w3-xxlarge"></i>
+    <p>EVENTS</p>
+  </a>-->
   <a href="/contact-us/#Form" class="js-nav w3-bar-item w3-button w3-padding-small w3-hover-black">
     <i class="fa fa-envelope w3-xxlarge"></i>
     <p>CONTACT</p>
@@ -36,7 +36,7 @@
   <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
     <a href="/#Origin" class="w3-bar-item w3-button" style="width:12.5% !important">ORIGIN</a>
     <a href="/#home" class="w3-bar-item w3-button" style="width:12.5% !important">HOME</a>
-    <a href="/#Nunsense" class="w3-bar-item w3-button" style="width:12.5% !important">EVENTS</a>
+    <!--<a href="/#Nunsense" class="w3-bar-item w3-button" style="width:12.5% !important">EVENTS</a>-->
     <a href="/#Mission" class="w3-bar-item w3-button" style="width:12.5% !important">MISSION</a>
     <a href="/#Wingmen" class="w3-bar-item w3-button" style="width:12.5% !important">WINGMEN</a>
     <a href="/#Biographies" class="w3-bar-item w3-button" style="width:12.5% !important">BIOS</a>
